@@ -1,0 +1,31 @@
+---
+# https://vitepress.dev/reference/default-theme-home-page
+layout: home
+
+hero:
+  name: "СПБ Вики"
+  text: "Добро пожаловать"
+  tagline: Тут можно найти правила и полезную информацию
+  image:
+    src: ./assets/logo.png
+    alt: SPB
+  actions:
+    - theme: brand
+      text: Гайды
+      link: /guide/guide-server
+    - theme: alt
+      text: Правила
+      link: /rules-server/game-part
+
+features:
+  - icon: 🧃
+    title: Просто и минималистично
+    details: Удобно для использования
+  - icon: 🔍
+    title: Удобный поиск
+    details: Ну реально удобный, попробуй!
+  - icon: ⚙️
+    title: Открытый исходкий код
+    details: Сделал Andrey Sheremet
+---
+
