@@ -37,7 +37,7 @@ export default defineConfig({
       }
     },
     editLink: {
-      pattern: 'https://github.com/blocksum-holding/spb-wiki/edit/main/docs/:path',
+      pattern: 'https://github.com/blocksum-holding/spb-wiki/edit/main/src/:path',
       text: 'Редактировать эту страницу на GitHub'
     },
     docFooter: {
