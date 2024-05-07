@@ -27,6 +27,8 @@ export default defineConfig({
   themeConfig: {
     // logo: "/logo.png",
     // https://vitepress.dev/reference/default-theme-config
+    returnToTopLabel: 'Вернуться на верх',
+    sidebarMenuLabel: 'Меню',
     outlineTitle: 'На этой странице',
     search: getSearchConfig(process.env),
     lastUpdated: {
