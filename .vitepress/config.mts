@@ -54,18 +54,27 @@ export default defineConfig({
     sidebar: [
       {
         text: 'Гайды',
+        link: '/guide/guide-server',
         items: [
-          { text: 'Гайд по серверу', link: '/guide/guide-server' },
-          { text: 'Пример по создании, страницы', link: '/guide/markdown-examples' }
+          { text: 'Смена никнейма', link: '/guide/change-nickname' },
+          { text: 'Как зайти на СПБ', items: [
+            { text: 'Как зайти на СПБ с Nintendo Switch', link: '/guide/nintendo-switch-login'},
+            { text: 'Как зайти с PS4/PS5', link: '/guide/ps-login' },
+          ]},
+          
+          { text: 'Пример для страницы', link: '/guide/markdown-examples' }
         ]
       },
       {
         text: 'Правила',
         items: [
+          { text: 'Правила техническая часть', link: '/rules-server/technical-part' },
           { text: 'Правила игровая часть', link: '/rules-server/game-part' },
-          { text: 'Правила техническая часть', link: '/rules-server/technical-part' }
+          { text: 'Штрафы', link: '/rules-server/invoice/invoice-main', items: [
+            { text: 'Штрафы ТФ', link: '/rules-server/invoice/invoice-tf' }
+          ] }
         ]
-      }
+      },
     ],
   }
 })
