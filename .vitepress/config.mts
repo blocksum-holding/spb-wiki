@@ -7,6 +7,7 @@ import { DefaultTheme, defineConfig } from 'vitepress'
 export default defineConfig({
   title: "СПБ Вики",
   description: "Вики сайт, для проекта СПБедрок",
+  titleTemplate: 'Пользовательский суффикс',
   lang: "ru-RU",
   base: "/",
   lastUpdated: true,
@@ -59,7 +60,7 @@ export default defineConfig({
           { text: 'Смена никнейма', link: '/guide/change-nickname' },
           { text: 'Как зайти на СПБ', items: [
             { text: 'Как зайти на СПБ с Nintendo Switch', link: '/guide/nintendo-switch-login'},
-            { text: 'Как зайти с PS4/PS5', link: '/guide/ps-login' },
+            { text: 'Как зайти с PS4/PS5', link: '/guide/ps-login'},
           ]},
           
           { text: 'Пример для страницы', link: '/guide/markdown-examples' }
