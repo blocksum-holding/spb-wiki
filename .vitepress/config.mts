@@ -7,7 +7,6 @@ import { DefaultTheme, defineConfig } from 'vitepress'
 export default defineConfig({
   title: "СПБ Вики",
   description: "Вики сайт, для проекта СПБедрок",
-  titleTemplate: true,
   lang: "ru-RU",
   base: "/",
   lastUpdated: true,
