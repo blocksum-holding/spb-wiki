@@ -1,7 +1,13 @@
 ---
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
-
+head:
+  - - meta
+    - name: description
+      content: СПБедрок Вики
+  - - meta
+    - name: keywords
+      content: супер-пупер SEO
 hero:
   name: "СПБ Вики"
   text: "Добро пожаловать"

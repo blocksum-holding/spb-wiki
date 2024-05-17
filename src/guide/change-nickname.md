@@ -1,15 +1,6 @@
 ---
 description: Чтобы сменить аккаунт зайдите на сайт Xbox или Microsoft.
 ---
----
-head:
-  - - meta
-    - name: description
-      content: Чтобы сменить аккаунт зайдите на сайт Xbox или Microsoft.
-  - - meta
-    - name: keywords
-      content: супер-пупер SEO
----
 # Смена никнейма 
 
 Чтобы сменить аккаунт зайдите на сайт [Xbox](https://www.xbox.com/ru-RU) или [Microsoft](https://www.microsoft.com/ru-ru).
