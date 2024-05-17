@@ -1,3 +1,6 @@
+---
+description: Чтобы сменить аккаунт зайдите на сайт [Xbox](https://www.xbox.com/ru-RU) или [Microsoft](https://www.microsoft.com/ru-ru).
+---
 # Смена никнейма 
 
 Чтобы сменить аккаунт зайдите на сайт [Xbox](https://www.xbox.com/ru-RU) или [Microsoft](https://www.microsoft.com/ru-ru).
