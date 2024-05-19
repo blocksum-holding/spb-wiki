@@ -48,7 +48,7 @@ export default defineConfig({
     },
     nav: [
       { text: 'Гайды', link: '/guide/guide-server' },
-      { text: 'Правила', link: '/rules-server/game-part' }
+      { text: 'Правила', link: '/rules-server/game-part' },
     ],
 
     sidebar: [
@@ -57,6 +57,7 @@ export default defineConfig({
         link: '/guide/guide-server',
         items: [
           { text: 'Смена никнейма', link: '/guide/change-nickname' },
+          { text: 'Откат версии', link: '/guide/change-version' },
           { text: 'Как зайти на СПБ', items: [
             { text: 'Как зайти на СПБ с Nintendo Switch', link: '/guide/nintendo-switch-login'},
             { text: 'Как зайти с PS4/PS5', link: '/guide/ps-login'},
@@ -71,7 +72,8 @@ export default defineConfig({
           { text: 'Правила техническая часть', link: '/rules-server/technical-part' },
           { text: 'Правила игровая часть', link: '/rules-server/game-part' },
           { text: 'Штрафы', link: '/rules-server/invoice/invoice-main', items: [
-            { text: 'Штрафы ТФ', link: '/rules-server/invoice/invoice-tf' }
+            { text: 'Штрафы ТФ', link: '/rules-server/invoice/invoice-tf' },
+            { text: 'Штрафы Бюрократии', link: '/rules-server/invoice/invoice-bureaucracy' }
           ] }
         ]
       },
