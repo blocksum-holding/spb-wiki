@@ -62,7 +62,9 @@ export default defineConfig({
             { text: 'Как зайти на СПБ с Nintendo Switch', link: '/guide/nintendo-switch-login'},
             { text: 'Как зайти с PS4/PS5', link: '/guide/ps-login'},
           ]},
-          
+          { text: 'Гайд по 4D скинам', items: [
+            { text: 'Замена UUID в паке', link: '/guide/4d/uuid'},
+          ]},
           { text: 'Пример для страницы', link: '/guide/markdown-examples' }
         ]
       },
