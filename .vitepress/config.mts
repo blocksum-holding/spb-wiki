@@ -48,7 +48,7 @@ export default defineConfig({
     },
     nav: [
       { text: 'Гайды', link: '/guide/guide-server' },
-      { text: 'Правила', link: '/rules-server/game-part' },
+      { text: 'Правила', link: '/rules-server/rules-server' },
     ],
 
     sidebar: [
@@ -76,8 +76,7 @@ export default defineConfig({
       {
         text: 'Правила',
         items: [
-          { text: 'Правила техническая часть', link: '/rules-server/technical-part' },
-          { text: 'Правила игровая часть', link: '/rules-server/game-part' },
+          { text: 'Правила сервера', link: '/rules-server/rules-server' },
           { text: 'Штрафы', link: '/rules-server/invoice/invoice-main', items: [
             { text: 'Штрафы ТФ', link: '/rules-server/invoice/invoice-tf' },
             { text: 'Штрафы Бюрократии', link: '/rules-server/invoice/invoice-bureaucracy' }

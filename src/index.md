@@ -18,7 +18,7 @@ hero:
       link: /guide/guide-server
     - theme: alt
       text: Правила
-      link: /rules-server/game-part
+      link: /rules-server/rules-server
 
 features:
   - icon: 🧃
