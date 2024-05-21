@@ -62,8 +62,13 @@ export default defineConfig({
             { text: 'Как зайти на СПБ с Nintendo Switch', link: '/guide/nintendo-switch-login'},
             { text: 'Как зайти с PS4/PS5', link: '/guide/ps-login'},
           ]},
-          { text: 'Гайд по 4D скинам', items: [
+          { text: 'Гайд по 4D скинам', collapsed: true, items: [
             { text: 'Замена UUID в паке', link: '/guide/4d/uuid'},
+            { text: 'Добавление скинов в пак', link: '/guide/4d/skins'},
+            { text: 'Изменение названия скинов', link: '/guide/4d/skins-name'},
+            { text: 'Порт Bedrock Models', link: '/guide/4d/bedrock-models'},
+            { text: 'Анимированные скины', link: '/guide/4d/animation-skins'},
+            { text: 'Cоздание светящихся скинов', link: '/guide/4d/creating-glowing-skins'},
           ]},
           { text: 'Пример для страницы', link: '/guide/markdown-examples' }
         ]
