@@ -47,42 +47,42 @@ export default defineConfig({
       next: 'Следующая страница'
     },
     nav: [
-      { text: 'Гайды', link: '/guide/guide-server' },
-      { text: 'Правила', link: '/rules-server/rules-server' },
+      { text: 'Гайды', link: '/guides/index' },
+      { text: 'Правила', link: '/rules/server' },
     ],
 
     sidebar: [
       {
-        text: 'Гайды',
-        link: '/guide/guide-server',
-        items: [
-          { text: 'Смена никнейма', link: '/guide/change-nickname' },
-          { text: 'Откат версии', link: '/guide/change-version' },
-          { text: 'Как зайти на СПБ', items: [
-            { text: 'Как зайти на СПБ с Nintendo Switch', link: '/guide/nintendo-switch-login'},
-            { text: 'Как зайти с PS4/PS5', link: '/guide/ps-login'},
-          ]},
-          { text: 'Гайд по 4D скинам', collapsed: true, items: [
-            { text: 'Замена UUID в паке', link: '/guide/4d/uuid'},
-            { text: 'Добавление скинов в пак', link: '/guide/4d/skins'},
-            { text: 'Изменение названия скинов', link: '/guide/4d/skins-name'},
-            { text: 'Порт Bedrock Models', link: '/guide/4d/bedrock-models'},
-            { text: 'Анимированные скины', link: '/guide/4d/animation-skins'},
-            { text: 'Cоздание светящихся скинов', link: '/guide/4d/creating-glowing-skins'},
-          ]},
-          { text: 'Пример для страницы', link: '/guide/markdown-examples' }
-        ]
-      },
-      {
         text: 'Правила',
         items: [
-          { text: 'Правила сервера', link: '/rules-server/rules-server' },
-          { text: 'Штрафы', link: '/rules-server/invoice/invoice-main', items: [
-            { text: 'Штрафы ТФ', link: '/rules-server/invoice/invoice-tf' },
-            { text: 'Штрафы Бюрократии', link: '/rules-server/invoice/invoice-bureaucracy' }
+          { text: 'Правила сервера', link: '/rules/server' },
+          { text: 'Штрафы', link: '/rules/fines/index', items: [
+            { text: 'Штрафы ТФ', link: '/rules/fines/trade-federation' },
+            { text: 'Штрафы Бюрократии', link: '/rules/fines/ministry-of-bureaucracy' }
           ] }
         ]
       },
+      {
+        text: 'Гайды',
+        link: '/guides/guide-server',
+        items: [
+          { text: 'Смена никнейма', link: '/guides/changing-nickname' },
+          { text: 'Откат версии', link: '/guides/rolling-back-version' },
+          { text: 'Как зайти на СПБ', items: [
+            { text: 'Как зайти на СПБ с Nintendo Switch', link: '/guides/join-on-nintendo-switch'},
+            { text: 'Как зайти с PS4/PS5', link: '/guides/join-on-playstation'},
+          ]},
+          { text: 'Гайд по 4D скинам', collapsed: true, items: [
+            { text: 'Замена UUID в паке', link: '/guides/4d-skins/replacing-uuid'},
+            { text: 'Добавление скинов в пак', link: '/guides/4d-skins/adding-skins'},
+            { text: 'Изменение названия скинов', link: '/guides/4d-skins/changing-skins-name'},
+            { text: 'Порт Bedrock Models', link: '/guides/4d-skins/porting-models'},
+            { text: 'Анимированные скины', link: '/guides/4d-skins/animated-skins'},
+            { text: 'Cоздание светящихся скинов', link: '/guides/4d-skins/creating-glowing-skins'},
+          ]},
+          { text: 'Пример для страницы', link: '/guides/markdown-examples' }
+        ]
+      }
     ],
   }
 })

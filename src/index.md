@@ -15,10 +15,10 @@ hero:
   actions:
     - theme: brand
       text: Гайды
-      link: /guide/guide-server
+      link: /guides/index
     - theme: alt
       text: Правила
-      link: /rules-server/rules-server
+      link: /rules/server
 
 features:
   - icon: 🧃
